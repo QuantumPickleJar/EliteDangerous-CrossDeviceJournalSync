@@ -80,7 +80,7 @@ def test_cli_rejected_source_returns_failure(tmp_path: Path) -> None:
     source = tmp_path / "input/Journal.260101120000.01.log"
     source.parent.mkdir()
     source.write_bytes(b"invalid\n")
-    result = command(tmp_path / "state", "scan", "--root", str(source.parent))
+    result = command(tmp_path / "state", "scan", "--no-defaults", "--root", str(source.parent))
     assert result.returncode == 1
     assert json.loads(result.stdout)["rejected"] == 1
     assert "invalid" not in result.stdout
