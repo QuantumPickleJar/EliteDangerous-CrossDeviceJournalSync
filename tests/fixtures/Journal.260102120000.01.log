@@ -1,0 +1,3 @@
+{"timestamp":"2026-01-02T12:00:00Z","event":"Fileheader","part":1,"gameversion":"synthetic-test","build":"test-build"}
+{"timestamp":"2026-01-02T12:00:01Z","event":"Commander","FID":"SYNTHETIC-FID-002","Name":"Synthetic Commander Beta"}
+{"timestamp":"2026-01-02T12:00:02Z","event":"Shutdown"}
