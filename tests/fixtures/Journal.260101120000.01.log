@@ -1,0 +1,10 @@
+{"timestamp":"2026-01-01T12:00:00Z","event":"Fileheader","part":1,"language":"English/UK","Odyssey":true,"gameversion":"synthetic-test","build":"test-build"}
+{"timestamp":"2026-01-01T12:00:01Z","event":"Commander","FID":"SYNTHETIC-FID-001","Name":"Synthetic Commander Alpha"}
+{"timestamp":"2026-01-01T12:00:02Z","event":"LoadGame","FID":"SYNTHETIC-FID-001","Commander":"Synthetic Commander Alpha","Ship":"SideWinder","GameMode":"Solo","Credits":1000}
+{"timestamp":"2026-01-01T12:00:03Z","event":"ScanOrganic","ScanType":"Log","Genus":"SyntheticGenus","Species":"SyntheticSpecies","Variant":"SyntheticVariant","SystemAddress":100,"Body":1}
+{"timestamp":"2026-01-01T12:00:04Z","event":"ScanOrganic","ScanType":"Sample","Genus":"SyntheticGenus","Species":"SyntheticSpecies","Variant":"SyntheticVariant","SystemAddress":100,"Body":1}
+{"timestamp":"2026-01-01T12:00:05Z","event":"ScanOrganic","ScanType":"Analyse","Genus":"SyntheticGenus","Species":"SyntheticSpecies","Variant":"SyntheticVariant","SystemAddress":100,"Body":1}
+{"timestamp":"2026-01-01T12:00:06Z","event":"SellOrganicData","MarketID":100,"BioData":[{"Genus":"SyntheticGenus","Species":"SyntheticSpecies","Value":500,"Bonus":1000}]}
+{"timestamp":"2026-01-01T12:00:07Z","event":"Died"}
+{"timestamp":"2026-01-01T12:00:08Z","event":"Resurrect","Option":"rebuy","Cost":0,"Bankrupt":false}
+{"timestamp":"2026-01-01T12:00:09Z","event":"Shutdown"}
